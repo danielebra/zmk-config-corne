@@ -15,6 +15,8 @@
 
 #define CONFIG 4
 
+&lt { quick_tap_ms = <250>; };
+
 / {
         behaviors {
             hm: homerow_mods {
