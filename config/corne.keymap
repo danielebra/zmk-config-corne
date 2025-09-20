@@ -18,6 +18,12 @@
 &lt { quick_tap_ms = <250>; };
 
 / {
+  chosen {
+    zmk,matrix_transform = &five_column_transform;
+  };
+};
+
+/ {
         behaviors {
             hm: homerow_mods {
                 compatible = "zmk,behavior-hold-tap";
