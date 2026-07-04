@@ -20,15 +20,15 @@
 ---
 include:
   # Corne
-  - board: nice_nano_v2
+  - board: nice_nano//zmk
     shield: corne_left
-  - board: nice_nano_v2
+    artifact-name: corne_left
+  - board: nice_nano//zmk
     shield: corne_right
+    artifact-name: corne_right
 
   # Cornish Zen v1
-  - board: corneish_zen_left
-    revision: 1.0.0
+  - board: corneish_zen_left@1//zmk
     artifact-name: corneish_zen_v1_left
-  - board: corneish_zen_right
-    revision: 1.0.0
+  - board: corneish_zen_right@1//zmk
     artifact-name: corneish_zen_v1_right
