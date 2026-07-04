@@ -77,9 +77,9 @@
                 function_layer {
                         label = "FUNCTION";
                         bindings = <
-   &none    &mo CONFIG  &trans  &trans  &trans     &trans        &trans   &kp F7   &kp F8  &kp F9   &kp F10   &none
-   &none    &trans      &trans  &trans  &trans     &trans        &trans   &kp F4   &kp F5  &kp F6   &kp F11   &none
-   &none    &trans      &trans  &trans  &kp LG(C)  &kp LG(V)     &trans   &kp F1   &kp F2  &kp F3   &kp F12   &none
+   &none    &mo CONFIG  &kp F23  &kp F24  &trans   &trans      &trans   &kp F7   &kp F8  &kp F9   &kp F10   &none
+   &none    &kp F18     &kp F19  &kp F20  &kp F21  &kp F22     &trans   &kp F4   &kp F5  &kp F6   &kp F11   &none
+   &none    &kp F13     &kp F14  &kp F15  &kp F16  &kp F17     &trans   &kp F1   &kp F2  &kp F3   &kp F12   &none
                            &trans &kp C_PP &kp C_NEXT     &trans &trans &kp N0
                         >;
                 };
